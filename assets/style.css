@@ -1,0 +1,36 @@
+body {
+    background: url(img/soldierscomp.png);
+    background-size: 100vw 100vh;
+background-color: beige;
+font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+    background-color: blueviolet;
+    color: rgb(0, 39, 26);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer p {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+    height: 0.5rem;
+}
+#container {
+    display:flex
+}
+.cartao {
+    margin: 0.5rem 0.5rem;
+    background-color: blanchedalmond;
+    flex-grow: 1;
+    flex-basis: calc(33% - 6rem);
+    border-radius: 0.8rem;
+}
+.cartao__conteudo{
+text-align: center;
+}
+.cartao__conteudo h3{
+    border: 1px solid black;
+    border-radius: 6px;
+}
