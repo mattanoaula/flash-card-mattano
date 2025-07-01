@@ -24,7 +24,9 @@ footer p {
 
 #container {
     display: flex;
-    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.9rem;
     padding: 1rem;
 }
 
